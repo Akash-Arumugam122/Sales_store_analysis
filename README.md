@@ -1,93 +1,109 @@
-Blinkit Retail Analytics - SQL Project
-Project Overview
+# Blinkit Retail Analytics - SQL Project
+
+## Project Overview
+
 This SQL-based retail analytics project examines Blinkit's sales data to uncover meaningful patterns and relationships in product performance, customer behavior, and store operations. The analysis transforms raw transactional data into strategic insights that inform business decisions across inventory management, marketing, and store operations.
 
-Project Datasets
-Blinkit_Dataset
+## Project Datasets 
 
-The dataset contains Blinkit's product and outlet information with 12 attributes, including:
-Product details: Item fat content, type, weight, visibility, and sales.
+[Blinkit_Dataset](https://drive.google.com/file/d/1EdSbZUdL9852dLdq14HgYfToQqymtBl-/view?usp=drive_link)
 
-Outlet information: Establishment year, identifier, location tier, size, and type.
+## The dataset contains Blinkit's product and outlet information with 12 attributes, including:
 
-Sales metrics: Total sales figures and outlet ratings (all rated 5 in this sample).
+1) Product details: Item fat content, type, weight, visibility, and sales.
 
-Key Observations:
-Mix of regular and low-fat items across categories (Fruits, Frozen Foods, Household, etc.).
+2) Outlet information: Establishment year, identifier, location tier, size, and type.
 
-Outlets vary by location tier (Tier 1–3), size (Small/Medium/High), and type (Supermarket/Grocery).
+3) Sales metrics: Total sales figures and outlet ratings (all rated 5 in this sample).
 
-Some missing values in Item Weight.
+## Key Observations:
 
-Use Case
+1) Mix of regular and low-fat items across categories (Fruits, Frozen Foods, Household, etc.).
+
+2) Outlets vary by location tier (Tier 1–3), size (Small/Medium/High), and type (Supermarket/Grocery).
+
+3) Some missing values in Item Weight.
+
+ ### **Use Case**  
+ 
 Analyze sales performance, product visibility, and outlet efficiency.
 
-Business Case Study: Blinkit Retail Analytics
-Blinkit Analysis
+## Business Case Study: Blinkit Retail Analytics
+
+[Blinkit Analysis](https://docs.google.com/presentation/d/12nw9fsd8uWd46i9OaWb3axxNUSmGRFRs/edit?usp=drive_link&ouid=107901475766506638269&rtpof=true&sd=true)
 
 This project analyzes Blinkit's retail operations dataset to uncover actionable insights for business optimization. The data encompasses product attributes (fat content, type, weight), outlet characteristics (location, size, type), and sales performance metrics across multiple stores.
 
-Key focus areas include:
-Identifying high-performing product categories and their characteristics
+## Key focus areas include:
 
-Analyzing the relationship between outlet attributes and sales performance
+1) Identifying high-performing product categories and their characteristics
 
-Evaluating how product visibility and weight impact sales
+2) Analyzing the relationship between outlet attributes and sales performance
 
-Comparing performance across different store tiers and locations
+3) Evaluating how product visibility and weight impact sales
 
-Potential business applications:
-Inventory optimization by identifying fast-moving products
+4) Comparing performance across different store tiers and locations
 
-Strategic placement of products based on visibility impact
+## Potential business applications:
 
-Store format recommendations based on performance analysis
+1) Inventory optimization by identifying fast-moving products
 
-Pricing strategy adjustments for different product categories
+2) Strategic placement of products based on visibility impact
 
-The analysis aims to provide data-driven recommendations to enhance Blinkit's operational efficiency, sales performance, and customer satisfaction.
+3) Store format recommendations based on performance analysis
 
-Technical Approach
-The project employs advanced SQL techniques including:
-Data cleaning and standardization procedures
+4) Pricing strategy adjustments for different product categories
 
-Complex aggregations and grouping operations
+The analysis aims to provide data-driven recommendations to enhance Blinkit's operational efficiency, sales performance, and customer satisfaction. 
 
-Pivot table transformations
+## Technical Approach
 
-Window functions for ranking and comparative analysis
+### The project employs advanced SQL techniques including:
 
-Multi-dimensional performance evaluation
+1) Data cleaning and standardization procedures
 
-Analysis Focus Areas
+2) Complex aggregations and grouping operations
 
-The exploration covers several critical business dimensions:
-Product Analysis: Examination of sales distribution across product categories and attributes
+3) Pivot table transformations
 
-Store Performance: Evaluation of outlet effectiveness across different locations and formats
+4) Window functions for ranking and comparative analysis
 
-Temporal Patterns: Investigation of sales trends across different time periods
+5) Multi-dimensional performance evaluation
+   
+7) Analysis Focus Areas
+   
+### The exploration covers several critical business dimensions:
 
-Operational Metrics: Assessment of inventory visibility and customer satisfaction measures
+1) Product Analysis: Examination of sales distribution across product categories and attributes
 
-Business Applications
-The insights generated support various operational improvements:
-Strategic product assortment planning
+2) Store Performance: Evaluation of outlet effectiveness across different locations and formats
 
-Data-driven store layout and placement decisions
+3) Temporal Patterns: Investigation of sales trends across different time periods
 
-Targeted promotional campaigns
+4) Operational Metrics: Assessment of inventory visibility and customer satisfaction measures
 
-Inventory optimization initiatives
+## Business Applications
 
-Performance benchmarking across locations
+### The insights generated support various operational improvements:
 
-Technical Environment
-Primary Database: Microsoft SQL Server
+1) Strategic product assortment planning
 
-Development Tools: SQL Server Management Studio (SSMS)
+2) Data-driven store layout and placement decisions
 
-Analysis Techniques: Advanced querying, data transformation, and visualization through result interpretation
+3) Targeted promotional campaigns
 
-Implementation Notes
+5) Inventory optimization initiatives
+
+6) Performance benchmarking across locations
+
+## Technical Environment
+
+1) Primary Database: Microsoft SQL Server
+
+2) Development Tools: SQL Server Management Studio (SSMS)
+
+3) Analysis Techniques: Advanced querying, data transformation, and visualization through result interpretation
+
+## Implementation Notes
+
 The project follows a structured analytical workflow from data preparation to insight generation, with all transformations and calculations performed directly in SQL for efficiency and reproducibility. The modular query design allows for easy adaptation to different time periods or business units.
